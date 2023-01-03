@@ -27,6 +27,7 @@ import Cut from './components/Cut';
 import Shoulder from './components/Shoulder';
 import Arms from './components/Arms';
 import Prenavbar from './prenavbar/Prenavbar';
+import GallerySlider from './components/GallerySlider';
 
 
 function App() {

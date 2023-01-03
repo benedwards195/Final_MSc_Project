@@ -1,7 +1,5 @@
 import React, { Component,useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import { GallerySlider } from './GallerySlider';
-import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 
 export default function SNW() {
 
@@ -18,7 +16,6 @@ export default function SNW() {
          <li>Bulk: To gain muscle mass</li>
          <li>Cut: To get rid of body fat</li>
         </div>
-        <i>*Insert random picture generator here*</i>
         </div>
         </>
     )
