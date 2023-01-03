@@ -23,6 +23,7 @@ return (
   <CustomLink href="/wh">Workout History</CustomLink>
   <CustomLink href="/ow">Outstanding Workouts</CustomLink>
   <CustomLink href="/about">About</CustomLink>
+  <CustomLink href="/workoutlist">Workout Guidance</CustomLink>
   <CustomLink href="/logout">Log Out</CustomLink>
 </ul>
 </nav>

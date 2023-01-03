@@ -25,7 +25,6 @@ yarn-error.log*
 .env
 
 GallerySlider.js
-WorkoutList.js
 Arms.js
 Back.js
 Chest.js

@@ -28,6 +28,7 @@ import Shoulder from './components/Shoulder';
 import Arms from './components/Arms';
 import Prenavbar from './prenavbar/Prenavbar';
 import GallerySlider from './components/GallerySlider';
+import WorkoutList from './components/WorkoutList';
 
 
 function App() {
@@ -69,8 +70,8 @@ function App() {
     case "/cut":
       component = <Cut />
       break
-    case "/weekly":
-      component = <Weekly />
+    case "/workoutlist":
+      component = <WorkoutList />
       break
     case "/chest":
       component = <Chest />
@@ -143,6 +144,7 @@ function App() {
       <Route path='/bulk' element={<Bulk/>} />
       <Route path='/cut' element={<Cut/>} />
       <Route path='/weekly' element={<Weekly/>} />
+      <Route path='/workoutlist' element={<WorkoutList/>} />
       <Route path='/footer' element={<Footer/>} />
       <Route path='/logout' element={<Logout setToken={setToken} />} />
 
