@@ -24,6 +24,7 @@ yarn-error.log*
 
 .env
 
+GallerySlider.js
 WorkoutList.js
 Arms.js
 Back.js
@@ -31,4 +32,4 @@ Chest.js
 Legs.js
 Preferences.js
 Weekly.js 
-GallerySlider.js
+
