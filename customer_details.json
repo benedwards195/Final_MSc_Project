@@ -1,0 +1,253 @@
+{
+  "login": [
+    {
+      "id": 1,
+      "username": "test@test.com",
+      "password": "password1",
+      "token": "b615e6fe-6206-4f9c-ad12-e5b9f06ffcec"
+    },
+    {
+      "username": "JSmith2@user.com",
+      "password": "password4",
+      "token": "d61d6320-5df4-4aff-afcb-cc26b569bb1e",
+      "id": 2
+    },
+    {
+      "username": "JoSmith@user.com",
+      "password": "password5",
+      "token": "64f84c9a-d749-41c0-a90e-cbd2cadccbca",
+      "id": 3
+    },
+    {
+      "username": "jodie.smith@user.com",
+      "password": "password6",
+      "token": "18ed852e-9ba5-4a8b-9063-c5c9586b337a",
+      "id": 4
+    },
+    {
+      "username": "JaneSmith@user.com",
+      "password": "password9",
+      "token": "c3fbe25c-59fa-4423-b615-073f82229e76",
+      "id": 5
+    },
+    {
+      "username": "abond@test.com",
+      "password": "password10",
+      "token": "aa35021f-81ec-43b5-a367-516d14ad3206",
+      "id": 6
+    },
+    {
+      "username": "slimmyJoe@gmail.com",
+      "password": "lol1234567890",
+      "token": "ae37c910-f653-45c5-82fc-2df4ea419f75",
+      "id": 7
+    }
+  ],
+  "account_information": [
+    {
+      "id": 1,
+      "name": "user name",
+      "username": "test1",
+      "address": "12 downing street",
+      "pcode": "N5 4TE",
+      "email": "test@test.com",
+      "token": "b615e6fe-6206-4f9c-ad12-e5b9f06ffcec"
+    },
+    {
+      "name": "Jack Smith",
+      "username": "JSmith2@user.com",
+      "address": "12 Down Street",
+      "pcode": "N12 6TE",
+      "email": "JSmith2@user.com",
+      "token": "d61d6320-5df4-4aff-afcb-cc26b569bb1e",
+      "id": 2
+    },
+    {
+      "name": "Joanna Smith",
+      "username": "JoSmith@user.com",
+      "address": "12 Down Street",
+      "pcode": "N12 6TE",
+      "email": "JoSmith@user.com",
+      "id": 3,
+      "token": "64f84c9a-d749-41c0-a90e-cbd2cadccbca"
+    },
+    {
+      "name": "Jodie Smith",
+      "username": "jodie.smith@user.com",
+      "address": "12 Down Street",
+      "pcode": "N12 6TE",
+      "email": "jodie.smith@user.com",
+      "id": 4,
+      "token": "18ed852e-9ba5-4a8b-9063-c5c9586b337a"
+    },
+    {
+      "name": "Jane Smith",
+      "username": "JaneSmith@user.com",
+      "address": "12 Down Street",
+      "pcode": "N12 6TE",
+      "email": "JaneSmith@user.com",
+      "id": 5,
+      "token": "c3fbe25c-59fa-4423-b615-073f82229e76"
+    },
+    {
+      "name": "Ashley Bond",
+      "username": "abond@test.com",
+      "address": "12 Down Street",
+      "pcode": "N12 6TE",
+      "email": "abond@test.com",
+      "token": "aa35021f-81ec-43b5-a367-516d14ad3206",
+      "id": 6
+    },
+    {
+      "name": "Big Slim Joe Junior",
+      "username": "slimmyJoe@gmail.com",
+      "address": "Junior Avenue 17",
+      "pcode": "B75 O72",
+      "email": "slimmyJoe@gmail.com",
+      "token": "ae37c910-f653-45c5-82fc-2df4ea419f75",
+      "id": 7
+    }
+  ],
+  "body_details": [
+    {
+      "age": "26",
+      "height": "165",
+      "weight": "95",
+      "neck": "12",
+      "waist": "30",
+      "token": "ae37c910-f653-45c5-82fc-2df4ea419f75",
+      "id": 1
+    }
+  ],
+  "bulk": [
+    {
+      "id": 1,
+      "token": "18ed852e-9ba5-4a8b-9063-c5c9586b337a",
+      "start_date": "01/01/2022",
+      "current_day": 1,
+      "chest": {
+        "flat_bench_press": 10,
+        "decline_bench_press": 10,
+        "incline_bench_press": 10,
+        "cable_flies": 10
+      },
+      "back": {},
+      "shoulder": {},
+      "legs": {},
+      "arms": {},
+      "tabata": {},
+      "completed": false
+    }
+  ],
+  "cut": [
+    {
+      "id": 1,
+      "token": "18ed852e-9ba5-4a8b-9063-c5c9586b337a",
+      "start_date": "01/01/2022",
+      "current_day": 1,
+      "chest": {
+        "flat_bench_press": 5,
+        "decline_bench_press": 5,
+        "incline_bench_press": 5,
+        "cable_flies": 5
+      },
+      "back": {},
+      "shoulder": {},
+      "legs": {},
+      "arms": {},
+      "tabata": {},
+      "completed": false
+    }
+  ],
+  "exercises": [
+    {
+      "id": 1,
+      "type": "chest",
+      "exercises": {
+        "flat_bench_press": 10,
+        "decline_bench_press": 10,
+        "incline_bench_press": 10,
+        "cable_flies": 10
+      }
+    },
+    {
+      "id": 2,
+      "type": "back",
+      "exercises": {
+        "deadlifts": 10,
+        "bent_over_row": 10,
+        "assisted_pull_ups": 10,
+        "lat_pulldown": 10,
+        "cable_crosses": 10
+      }
+    },
+    {
+      "id": 3,
+      "type": "shoulder",
+      "exercises": {
+        "standing_shoulder_press": 10,
+        "seated_shoulder_press": 10,
+        "lateral_raises": 10,
+        "shrugs": 10
+      }
+    },
+    {
+      "id": 4,
+      "type": "legs",
+      "exercises": {
+        "squats": 10,
+        "leg_press": 10,
+        "lunges": 10,
+        "calf_raises": 10
+      }
+    },
+    {
+      "id": 5,
+      "type": "arms",
+      "exercises": {
+        "standing_bicep_curl": 10,
+        "seated_barbell_bicep_curl": 10,
+        "tricep_pulldowns": 10,
+        "tricep_dips": 10
+      }
+    },
+    {
+      "id": 6,
+      "type": "tabata",
+      "exercises": {
+        "press ups, burpees, squat jumps, sit ups": 20
+      }
+    }
+  ],
+  "workout_history": [
+    {
+      "id": 1,
+      "token": "18ed852e-9ba5-4a8b-9063-c5c9586b337a",
+      "type": "Bulk",
+      "start_date": "01/01/2021",
+      "end_date": "07/01/2021",
+      "chest": {
+        "flat_bench_press": 5,
+        "decline_bench_press": 5,
+        "incline_bench_press": 5,
+        "cable_flies": 5
+      },
+      "back": {
+        "bent_over_row": 5
+      },
+      "shoulder": {
+        "standing_shoulder_press": 5
+      },
+      "legs": {
+        "squats": 5
+      },
+      "arms": {
+        "bicep_curls": 5,
+        "tricep_pulldown": 5
+      },
+      "tabata": {
+        "press_ups": 5
+      }
+    }
+  ]
+}

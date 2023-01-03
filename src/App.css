@@ -1,38 +1,312 @@
 .App {
   text-align: center;
+  display: flex;
+  min-height: 75vh;
+  align-items: center;
+  justify-content: left;
+  background-color: gold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  margin: 0;
+  background-color: gold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+
+.history {
+  
+  font-size: 1.5rem;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+}
+
+.definitions {
+  float: center;
+  margin: 1rem;
+  font-size: 1.5rem;
+  color: purple;
+  font-weight: bold;
+}
+
+.container {
+  margin: 0rem;
+  text-align: center;
+}
+
+.vid {
+  width: 100%;
+  height: 25vh;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 25%;
+  top: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+video {
+  width: 100%;
+  height: 25%;
+  object-fit: cover;
+}
+.auth-form-container, .login-form, .register-form {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (min-width: 600px) { 
+  .App{
+    padding: 2.5rem;
+    margin: 0.5rem;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media screen and (max-width: 600px) {
+  .nav ul {
+    font-size: 0.25em;
+    gap: .25rem;
   }
+
+}
+
+.auth-form-container {
+  padding: 2.5rem;
+  margin: 0.5rem;
+
+}
+
+.me-auto{
+padding: 0.5rem;
+width: 100%;
+}
+
+.Nav.Link{
+margin: 0.5rem;
+padding: 0.5rem;
+
+}
+
+
+.Prenavbar.h1 {
+  background-color: #000;
+  color: white;
+  width: 75%;
+}
+
+.navbar {
+  background-color: black;
+  width: 20%;
+  color: white;
+  display: flex;
+  justify-content: right;
+  float: right;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0;  
+}
+
+
+
+.navbar ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  font-size: 1em;
+}
+
+.navbar a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: bold;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
+
+.navbar li {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.nav{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+  font-size: 1em;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: bold;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
+
+.nav li.active {
+  background-color: #000;
+}
+
+.workout {
+  height: 300px;
+  width: 100%;
+}
+
+.Affirmations {
+  text-align: center;
+  padding: 10px;
+  background-color: lightblue;
+  color: blue;
+
+}
+
+.Weekly {
+  text-align: center;
+  padding: 5px;
+  background-color: black;
+  color: orange;
+  margin: 1rem;
+}
+
+.Affirmations h1 {
+  color: black;
+}
+
+nav a:hover {
+  color: purple;
+  background-color: gold;
+}
+
+label {
+  text-align: left;
+  padding: 1rem 0;
+}
+
+input {
+  margin: 0.125rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+select {
+  margin: 0.125rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+.wrapper {
+  padding: 20px;
+}
+
+.ex {
+    background-color: lightgrey;
+    color: black;
+    padding: 10px;
+    border: 10px;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: bold;
+    margin: 1.5rem;
+}
+
+button {
+  border: none;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+
+.link-btn {
+  background: none;
+  color: black;
+  text-decoration: underline;
+}
+
+.dropdown {
+  width: 400px;
+  user-select: none;
+  margin: 100px auto;
+  position: relative;
+}
+
+.bulk .container{
+  width: 100%;
+  height: 100vh;
+}
+.dropdown .dropdown-btn {
+  padding: 15px 20px;
+  background: #fff;
+  box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+  font-weight: bold;
+  color: #333;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.dropdown .dropdown-content {
+  position: absolute;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 1;
+}
+
+.appfooter {
+  font-weight: bold;
+  margin: 9rem;
+  /*
+  margin: 9rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+  top: 65%; */
+  min-height: calc(100vh - 34px);
+  
+}
+
+.listOfWorkouts {
+  line-height: 0%;
+  text-align: center;
 }

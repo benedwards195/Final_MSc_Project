@@ -21,3 +21,13 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.env
+
+WorkoutList.js
+Arms.js
+Back.js
+Chest.js
+Legs.js
+Preferences.js
+Weekly.js 
