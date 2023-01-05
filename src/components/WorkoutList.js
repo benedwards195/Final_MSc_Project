@@ -7,7 +7,7 @@ export default function WorkoutList() {
     <ol>
     <li>Hold the weight directly over the shoulders, positioning your arms slightly wider than shoulder height, but parallel.</li> 
     <li>Push the weight up until your arms are angled at 45 degrees at the top.</li> 
-    <li>Then gradually lower the weight back down to chest height, elbows out to the sides.</li>    
+    <li>Then gradually lower the weight back down to chest height, with your elbows out to the sides.</li>    
     </ol>
     <p>Credit:  Chertoff, J(2022) https://www.healthline.com/health/exercise-fitness/bench-press-muscles-worked#:~:text=Hold%20the%20weight%20directly%20over,around%205%20reps%20or%20more.</p> 
 
@@ -37,7 +37,7 @@ export default function WorkoutList() {
     <p>Credit: https://stronglifts.com/deadlift/</p>
        <h1>Bent Over Row</h1>
        <ol>
-           <li>Grab a set of dumbbells, bend your torso forward and keep your knees slightly bent.</li>
+           <li>Grab a set of dumbbells, bend your torso forward, keeping the knees slightly bent.</li>
            <li>Pull the dumbbells toward your waistline, as you squeeze your shoulder blades.</li>
            <li>Gradually lower the weights to the starting position. Pull for one second, then pause for another second.</li>
            
@@ -45,7 +45,7 @@ export default function WorkoutList() {
        <p>Credit: https://www.spotebi.com/exercise-guide/dumbbell-bent-over-row/</p>
        <h1>Assisted Pull Ups</h1>
        <ol>
-       <li>Place the pin into as much weight as you need it to support you with</li>    
+       <li>Place the pin into as much weight as you need it to support you with.</li>    
        <li>Clutch the handles with a wider-than-shoulder-width, overhand grip.</li>           
        <li>Kneel onto the knee pad, and let your bodyweight push down the knee pad until you can hang with your arms and shoulders in a stretched position.</li>
        <li>Pull your body up until your chin rises over the bar, remembering to exhale.</li>
@@ -74,7 +74,7 @@ export default function WorkoutList() {
        <p>Credit: Black, H (2022) https://www.verywellfit.com/how-to-do-the-dumbbell-overhead-press-3498298</p>
        <h1>Squats</h1>
        <ol>
-           <li>Stand up with your feet shoulder-width apart.</li>
+           <li>Once you have set the weight into position, stand up with your feet shoulder-width apart.</li>
            <li>Bend your knees, press your hips back and stop the movement once the hip joint is slightly lower than the knees</li>
            <li>Press your heels into the floor to return to the initial position.</li>
            
