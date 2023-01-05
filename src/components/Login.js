@@ -1,24 +1,10 @@
 import React, { useState, useEffect } from "react";
-import Register from "./Register";
-import PropTypes from 'prop-types';
 import {Link, useNavigate} from 'react-router-dom';
 
-/*
-async function loginUser(credentials) {
-  return fetch('http://localhost:3000/login', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify(credentials)
-  })
-    .then(data => data.json())
- }
-*/
+
 export const Login = ( {setToken}) => {
 const [username, setUsername] = useState('');
 const [pass, setPass] = useState('');
-//const [token, setToken] = useState();
 const [accounts, setAccounts] = useState([]);
 let navigate = useNavigate();
 
@@ -45,14 +31,10 @@ navigate('/home');
 else {
   alert("Login unsuccessful");
 }
-//console.log(token);
+
 };
 
-//const [currentForm, setCurrentForm] = useState('login');
 
- // const toggleForm = (formName) => {
-  //  setCurrentForm(formName);
- // }
 
 
     return(

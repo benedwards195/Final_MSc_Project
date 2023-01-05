@@ -25,7 +25,7 @@ export default function WorkoutList() {
     <h1>Deadlifts</h1>
     <ol>
         <li>Stand with your mid-foot under the barbell</li>
-        <li>Bend over and grab the bar with a shoulder-width grip</li>
+        <li>Bend over and grab the bar, gripping it shoulder-width apart. grip</li>
         <li>Bend your knees until your shins touch the bar</li>
         <li>Lift your chest up and straighten your lower back</li>
         <li>Take a big breath, hold it, and stand up with the weight</li>
@@ -38,20 +38,21 @@ export default function WorkoutList() {
        <h1>Bent Over Row</h1>
        <ol>
            <li>Grab a set of dumbbells, bend your torso forward and keep your knees slightly bent.</li>
-           <li>Pull the dumbbells toward your waistline, while squeezing your shoulder blades.</li>
-           <li>Slowly lower the weights to the starting position. A 1-second pull, 1-second pause, 2 second down count is ideal.</li>
+           <li>Pull the dumbbells toward your waistline, as you squeeze your shoulder blades.</li>
+           <li>Gradually lower the weights to the starting position. Pull for one second, then pause for another second.</li>
            
        </ol>
        <p>Credit: https://www.spotebi.com/exercise-guide/dumbbell-bent-over-row/</p>
        <h1>Assisted Pull Ups</h1>
        <ol>
-           <li>Loop a resistance band around the bar to create a hanging loop.</li>
-           <li>Position yourself on the pullup bar using an overhand grip that’s slightly wider than your shoulders.</li>
-           <li>Place either your knees or feet in the band.</li>
-           <li>Raise your body as high as you can.</li>
-           <li>Slowly lower back down to the starting position.</li>
+       <li>Place the pin into as much weight as you need it to support you with</li>    
+       <li>Clutch the handles with a wider-than-shoulder-width, overhand grip.</li>           
+       <li>Kneel onto the knee pad, and let your bodyweight push down the knee pad until you can hang with your arms and shoulders in a stretched position.</li>
+       <li>Pull your body up until your chin rises over the bar, remembering to exhale.</li>
+        <li>Hold for two seconds, remembering to squeeze your back muscles.</li>
+        <li>As you lower your body until your arms and shoulders are fully stretched, remember to inhale.</li>
        </ol>
-       <p>Credit: Cronkleton, E (2020) https://www.healthline.com/health/assisted-pull-ups#resistance-band-pullups</p>
+       <p>Credit: https://weighttraining.guide/exercises/assisted-pull-up/</p>
 
       <h1>Lat Pulldown</h1>
       <ol>
@@ -81,7 +82,7 @@ export default function WorkoutList() {
        <p>Credit: https://www.verywellfit.com/how-to-do-the-dumbbell-overhead-press-3498298</p>
        <h1>Leg Press</h1>
        <ol>
-           <li>When you sit down at a leg press machine, your body should be in a particular position. Sit on the machine with your back and head resting comfortably against the padded support. Place your feet on the footplate about hip-width apart while ensuring that your heels are flat.</li>
+           <li>Once you have sat down at a leg press machine, make sure your body is in a particular position. Sit on the machine with your back and head, resting against the padded support. Place your feet on the footplate about hip-width apart, as you make sure that your heels are flat.</li>
            <li>Your bottom should be flat against the seat rather than raised. Your legs should form an angle of about 90 degrees at the knees. If your feet are too high on the plate, it will stress your glutes; too low puts unnecessary pressure on your knees. Your knees should be in line with your feet and neither be bowed inward nor outward.</li>
            <li>As you press, make sure to keep this alignment. Grasp the assist handles to provide support and keep your spine and head in position.</li>
            <li>Brace your abdominal muscles and push the platform away with your heels and forefoot. Your heels should remain flat on the footplate. The front of your foot or toes should never be used exclusively to move the pad forward.</li>

@@ -3,13 +3,7 @@ import {useState} from 'react';
 export default function WL({weekday, workout}) {
 const [workouts, setWorkouts] = useState(workout);
 
-const showWorkouts = () => {
-    
-    //for (const [key, value] of Object.entries(workouts)){
-    //    works += `Workout Name: ${key}, reps: ${value}`;
-    //}
-   
-}
+
 
 if (weekday === 1) {
     return (

@@ -1,5 +1,4 @@
 import React from 'react';
-//import centralpark from '../mp4/centralpark.mp4';
 import '../App.css';
 import Banner from './Banner.js';
 import Affirmations from './Affirmations.js'
@@ -7,8 +6,7 @@ import Weekly from './Weekly';
 
 export default function Home() {
 
-//const banner = <video autoplay muted loop> <video class='banner' alt='workout video' src='/mp4/centralpark.mp4'/>
-  //</video>
+
  
 return (
 <>

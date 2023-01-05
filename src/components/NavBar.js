@@ -1,14 +1,7 @@
 import '../App.css';
 import React, { Component } from 'react';
-import  Login  from "./Login";
-import  Register from "./Register";
-import Home from './Home.js';
-import About from './About.js';
-import SNW from './SNW.js';
-import RW from './RW.js';
-import WH from './WH.js';
-import OW from './OW.js';
-import VWH from './Logout.js';
+
+
 
 
 
@@ -21,9 +14,8 @@ return (
   <CustomLink href="/snw">Start New Workout</CustomLink>
   <CustomLink href="/rw">Resume Workout</CustomLink>
   <CustomLink href="/wh">Workout History</CustomLink>
-  <CustomLink href="/ow">Outstanding Workouts</CustomLink>
-  <CustomLink href="/about">About</CustomLink>
   <CustomLink href="/workoutlist">Workout Guidance</CustomLink>
+  <CustomLink href="/about">About</CustomLink>
   <CustomLink href="/logout">Log Out</CustomLink>
 </ul>
 </nav>

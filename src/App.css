@@ -164,7 +164,7 @@ padding: 0.5rem;
   margin: 0;
   list-style: none;
   display: flex;
-  gap: 2.5rem;
+  gap: 4.5rem;
   font-size: 1em;
 }
 
@@ -293,7 +293,8 @@ button {
 
 .appfooter {
   font-weight: bold;
-  margin: 9rem;
+  margin: 12rem;
+  
   /*
   margin: 9rem;
   display: flex;
